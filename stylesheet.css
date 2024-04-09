@@ -9,6 +9,16 @@
     border-style: solid;
     padding: 15px;
 }
+
+.logo {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    object-fit: contain;
+    clip-path: polygon(0% 25%, 100% 25%, 100% 75%, 0% 75%);
+      }
+      
+
 .time {
     color: black;
     font-family: Inter;
