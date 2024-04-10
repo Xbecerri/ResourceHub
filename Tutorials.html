@@ -9,23 +9,25 @@
 <body class="background">
     <div class="navbar">
         <span class="time">3:14</span>
+        <div class="tutorialspace"></div>
         <span class="Tutorial_title">Video Tutorials</span>
         <!-- Other navbar items like menu and signal icons would go here -->
     </div>
     <div class="search-container">
-        <input type="text" placeholder="Search for Videos">
+        <input class="searchbox" type="text" placeholder="Search for Videos">
+        <img class="search" src="./search.png">
         <!-- Search icon would be added via CSS -->
     </div>
     <div class="video-list">
-        <div class="video-item">
+        <div class="video-item1">
             <div class="video-icon biology"></div>
             <div class="video-info">
-                <h3>Biology: Mitosis vs. Meiosis</h3>
-                <p>Level: Medium</p>
-                <p>Dr. Scientist</p>
+                <h3 class="content">Biology: Mitosis vs. Meiosis</h3>
+                <p class="content">Level: Medium</p>
+                <p class="content">Dr. Scientist</p>
             </div>
         </div>
-        <div class="video-item">
+        <div class="video-item2">
             <div class="video-icon chemistry"></div>
             <div class="video-info">
                 <h3>Chemistry Reactions</h3>
@@ -33,7 +35,7 @@
                 <p>Dr. Jones</p>
             </div>
         </div>
-        <div class="video-item">
+        <div class="video-item1">
             <div class="video-icon coding"></div>
             <div class="video-info">
                 <h3>Java vs. Python</h3>
@@ -41,7 +43,7 @@
                 <p>Dr. Steve Jobs</p>
             </div>
         </div>
-        <div class="video-item">
+        <div class="video-item2">
             <div class="video-icon bootstrap"></div>
             <div class="video-info">
                 <h3>Intro to Bootstrap</h3>
@@ -50,8 +52,11 @@
             </div>
         </div>
     </div>
-    <div class="bottom-nav">
-        <!-- Icons for home, play, etc. would be added via CSS -->
-    </div>
+    <div class="menubar2">
+        <a href="./HomePage.html"><img class="menulogo" src="./Homelogo.png"></a>
+        <a href="./Tutorials.html"><img class="menulogo" src="./Videologo.png"></a>
+        <a href="./Challenges.html"><img class="menulogo" src="./Challengeslogo.png"></a>
+        <a href="./Connect.html"><img class="menulogo" src="./Connectlogo.png"></a>
+      </div>
 </body>
 </html>

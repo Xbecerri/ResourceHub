@@ -210,12 +210,12 @@
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Amaranth;
-    font-size: 20px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 62.5% */
-    margin-left: -30px;
-    padding-top: 50px !important;
+    margin-left: 30px;
+    
 }
 
 .navbar {
@@ -228,3 +228,72 @@
     background: rgba(5, 18, 138, 0.84);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.tutorialspace {
+    height: 75px;
+    
+}
+
+.searchbox {
+
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 3px;
+    border-color: grey;
+    margin-left: 30px;
+    margin-top: 25px;
+}   
+
+.video-item1 {
+    background: rgba(5, 18, 138, 0.84);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 6px #888888;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.video-item2 {
+    background: white;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 6px #888888;
+    padding-left: 20px;
+}
+
+.menubar2 {
+    width: 368px;
+    height: 57px;
+    /* flex-shrink: 0; */
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 6px 4px 4px 3px rgba(0, 0, 0, 0.35);
+    margin-top: -30px;
+    margin-left: 15px;
+    z-index: 10;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.menulogo {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+    margin-left: 28px;
+    padding: 2px;
+    margin-top: 10px;
+
+}
+
+.search {
+    height: 20px;
+    width: 20px;
+    margin-left: 3px;
+}
+
