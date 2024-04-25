@@ -147,9 +147,13 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    margin-left: 300px;
+    margin-left: 344px;
     /* display: inline-block; */
     margin-top: 50px;
+}
+
+.back {
+    width: 50px;
 }
 
 .menubar {
@@ -164,7 +168,6 @@
     z-index: 10;
     position: relative;
     margin-bottom: 50px;
-    margin-right: 
 }
 
 .menulogo {
@@ -280,6 +283,20 @@
     margin-bottom: 50px;
 }
 
+.menubar3 {
+    width: 368px;
+    height: 57px;
+    /* flex-shrink: 0; */
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 6px 4px 4px 3px rgba(0, 0, 0, 0.35);
+    margin-top: 35px;
+    margin-left: 15px;
+    z-index: 10;
+    position: relative;
+    margin-bottom: 50px;
+}
+
 .menulogo {
     display: inline-block;
     height: 35px;
@@ -297,3 +314,103 @@
     margin-left: 3px;
 }
 
+
+.tutorial-top{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.mentor {
+    width: 207px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Amaranth;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 69.444% */
+    margin-left: 150px;
+    padding-top: 15px;
+
+}
+
+.pronouns {
+    width: 247px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #B8B5B5;
+    font-family: Amaranth;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    margin-left: 168px;
+    margin-top: -35px;
+}
+
+.profile {
+    width: 200px;
+    height: 205px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    margin-left: 95px;
+    margin-top: -60px;
+}
+
+.interests {
+    width: 328px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #05128A;
+    font-family: Amaranth;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    padding-left: 35px;
+}
+
+.bio {
+    width: 247px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    padding-left: 70px;
+    margin-top: -80px;
+
+}
+
+.Connections_title {
+    justify-content: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Amaranth;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 62.5% */
+    margin-left: 30px;
+}
+
+.connect-button {
+    margin-top: 80px;
+    margin-left: 250px;
+    width: 131px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #05128A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.connectbuttontext {
+ 
+}
